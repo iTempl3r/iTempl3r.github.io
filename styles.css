@@ -30,6 +30,9 @@ nav li a {
     color: #333;
     text-decoration: none;
 }
-na ul li .active{
+nav li a:hover{
+    color: grey
+    }
+nav ul li .active{
     color: white
 }
