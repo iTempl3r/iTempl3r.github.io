@@ -16,18 +16,37 @@
 <body>
 <div class="container1">
 <b> Hier entsteht die Seite von Junghans</b>
-</div>
-  <h1>FICK DIE GANZE SCHEISSE</h1>
-    <hr>
-    <h2>FICK DIE GANZE SCHEISSE</h2>
-    <h3>FICK DIE GANZE SCHEISSE</h3>
-    <h4>FICK DIE GANZE SCHEISSE</h4>
-    <h5>FICK DIE GANZE SCHEISSE</h5>
-    <h6>FICK DIE GANZE SCHEISSE</h6>
-    <p title="HASS">Mein Hass auf die ganze Scheisse ist gerade riesig...<br>
-       Drecks Flask und Pycharm funktioniert halt einfach gar nicht.</p>
-    <a href="https://www.google.de/?gws_rd=ssl">Google</a><br>
-    <a href="https://images.wallpapersden.com/image/download/backbone-hd-gaming_bG1obmuUmZqaraWkpJRmbmdlrWZlbWU.jpg">Bild von Backbone</a>
+  <h1>Der Spaß geht weiter</h1>
+    <form action="zielseite.php" target="_blank">
+      <p>Wenn für Vorname type = password genutzt wurde und als method 'post', dann wird in der URL nichts sensibles <br>
+      gezeigt.</p>
+      Vorname: <input type="text" name="ZugriffAufVorname" readonly="readonly" ><br>
+      Nachname: <input type="text" name="ZugriffAufNachname" size="25" maxlength="5" autocomplete="off"><br>
+      Passwort: <input type="password" name="ZugriffAufPasswort"><br>
 
+       <input type="radio" name="Status" value="Schüler">Schüler<br>
+       <input type="radio" name="Status" value="Auszubildender">Auszubildender<br>
+       <input type="radio" name="Status" value="Student" required="on">Student<br>
+       <input type="checkbox" name="kannHTML" value="true">Ich kann HTML<br>
+       <input type="checkbox" name="kannCSS" value="true">Ich kann CSS<br>
+       <input type="button" onclick="alert('Hi')" value="Klick mich"><br>
+       <input type="color" name="farbe"><br>
+       <input type="date" name="geburtstag"><br>
+       <input type="time" name="zeit"><br>
+       <input type="range" name="zahl" min="1" max="10"><br>
+       <input type="search" name="suche"><br>
+
+       <p>Wenn man target="_blank" eingibt, kommt der Nutzer auf ein neues leeres Tab <br>
+       sobald er auf submit Button klickt. <br>
+       Am besten nutzt man dazu action = "zielseite.php" oder so und schon läuft das gut</p>
+
+       <h4>Mehrere Datein auswählbar, da "multiple=on"</h4>
+       <input type="file" name="Daten" multiple="on"><br>
+
+
+
+
+      <input type="submit" value="Absenden">
+    </form>
 </body>
 </html>
