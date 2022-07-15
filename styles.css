@@ -5,6 +5,9 @@
 html{
     height:100%;
 }
+body{
+    text-align: center;
+    }
 nav{
     height: 90px;
     width: 100%;
@@ -12,7 +15,9 @@ nav{
     background-color: #92a8d1;
 }
 nav ul{
-  float: right;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 nav li{
     display: inline-block;
